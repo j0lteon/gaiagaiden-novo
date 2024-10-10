@@ -21,7 +21,6 @@ public class Usuario {
 	private String senha;
 	private String telefone;
 	private String nivelAcesso;
-	private byte[] foto;
 	private LocalDateTime dataCadastro;
 	private String statusUsuario;
 	
@@ -61,12 +60,6 @@ public class Usuario {
 	}
 	public void setNivelAcesso(String nivelAcesso) {
 		this.nivelAcesso = nivelAcesso;
-	}
-	public byte[] getFoto() {
-		return foto;
-	}
-	public void setFoto(byte[] foto) {
-		this.foto = foto;
 	}
 	public LocalDateTime getDataCadastro() {
 		return dataCadastro;
